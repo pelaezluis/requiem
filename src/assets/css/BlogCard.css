@@ -27,3 +27,17 @@
     background: #3b4a54 !important;
     color: white !important;
 }
+
+.bc-text h4 {
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+@media (max-width: 600px) {
+    .bc-text h4 {
+        font-size: 20px;
+    }
+
+    .bc-text p {
+        font-size: 12px;
+    }
+}
