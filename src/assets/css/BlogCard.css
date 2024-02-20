@@ -10,6 +10,10 @@
     box-shadow: 1px 1px 10px 3px rgb(128, 128, 128);
 }
 
+.bc-container:hover {
+    box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+}
+
 .bc-img {
     width: 100%;
     margin: auto;
