@@ -1,0 +1,25 @@
+.bc {
+    width: 100%;
+    color: white;
+}
+
+.bc-container {
+    width: 100%;
+    margin: auto;
+    background: #446063;
+    box-shadow: 1px 1px 10px 3px rgb(128, 128, 128);
+}
+
+.bc-img {
+    width: 100%;
+    margin: auto;
+}
+
+.bc-img img {
+    width: 100%;
+}
+
+.bc-read {
+    background: #3b4a54 !important;
+    color: white !important;
+}
