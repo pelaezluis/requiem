@@ -26,8 +26,8 @@
 }
 
 .bc-read {
-    background: rgb(160, 0, 0) !important;
-    box-shadow: 1px 1px 6px 3px rgb(160, 0, 0);
+    background: #83072D !important;
+    box-shadow: 1px 1px 6px 3px #83072D;
     color:  black !important;
     font-family: luminari !important;
 }
