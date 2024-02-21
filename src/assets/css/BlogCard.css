@@ -38,13 +38,17 @@
     font-family: luminari;
 }
 
+.bc-text p {
+    font-family: luminari !important;
+}
+
 @media (max-width: 600px) {
     .bc-text h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .bc-text p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .bc-img img {
