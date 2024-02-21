@@ -23,6 +23,8 @@
     width: 100%;
     /* height: 210px;
 	overflow: hidden; */
+    height: 350px;
+	overflow: hidden;
 }
 
 .bc-read {
