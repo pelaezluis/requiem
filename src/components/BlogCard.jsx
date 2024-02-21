@@ -10,7 +10,7 @@ export const BlogCard = ({title = 'Titulo del blog', src, description = 'Descrip
                 <div className="bc-text p-2">
                     <h4>{title}</h4>
                     <p>{description}</p>
-                    <Link to={'/'} className="bc-read btn">Leer entrada</Link>
+                    <Link to={'/'} className="bc-read btn"><strong>Leer entrada</strong></Link>
                 </div>
             </div>
 

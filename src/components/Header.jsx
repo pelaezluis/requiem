@@ -25,9 +25,6 @@ export const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className='requiem-title'>
-                <h1><em><strong>Requiem del espiritú</strong></em></h1>
-            </div>
         </header>
     )
 }

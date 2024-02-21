@@ -1,17 +1,17 @@
 .bc {
     width: 100%;
-    color: white;
+    color: rgb(204, 177, 21);
 }
 
 .bc-container {
     width: 100%;
     margin: auto;
-    background: #446063;
-    box-shadow: 1px 1px 10px 3px rgb(128, 128, 128);
+    background: black;
+    box-shadow: 1px 1px 10px 3px black;
 }
 
 .bc-container:hover {
-    box-shadow: 1px 1px 10px 3px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 3px rgb(128, 128, 128);
 }
 
 .bc-img {
@@ -21,15 +21,21 @@
 
 .bc-img img {
     width: 100%;
+    /* height: 210px;
+	overflow: hidden; */
 }
 
 .bc-read {
-    background: #3b4a54 !important;
-    color: white !important;
+    background: rgb(214, 0, 0) !important;
+    box-shadow: 1px 1px 6px 3px rgb(214, 0, 0);
+    color:  black !important;
+    font-family: luminari !important;
 }
 
 .bc-text h4 {
-    font-family: 'Grenze Gotisch', cursive;
+    /* font-family: 'Grenze Gotisch', cursive; */
+    /* font-family: "fantasy one"; */
+    font-family: luminari;
 }
 
 @media (max-width: 600px) {

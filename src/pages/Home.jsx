@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { BlogCard } from "../components/BlogCard";
 import '../assets/css/Home.css'
+import home_1 from '../assets/img/home_1.JPG'
 
 export function Home() {
     const blogs = [
@@ -33,9 +34,8 @@ export function Home() {
     return (
         <div className="home">
             <Header />
-            <div>
-                <h2 className="home-h2">HOLOCENO</h2>
-                <p className="home-p">Una aproximación a toda la mierda filosófica que he leído en los últimos años</p>
+            <div className="home-text-img">
+                <img className="home-img" src={home_1} alt="home_1" />
             </div>
             <div className="home-blogs p-4">
                 {
