@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { BlogCard } from "../components/BlogCard";
 import '../assets/css/Home.css'
+import { Footer } from "../components/Footer";
 // import home_1 from '../assets/img/home_1.JPG'
 
 export function Home() {
@@ -46,6 +47,7 @@ export function Home() {
                     })
                 }
             </div>
+            <Footer />
         </div>
     )
 }

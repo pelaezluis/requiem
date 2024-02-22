@@ -1,0 +1,16 @@
+.footer {
+    /* background: #131a19; */
+    background: black;
+    height: 150px
+}
+
+.f-i-social {
+    width: 3em;
+    margin-top: 2em;
+}
+
+.footer p {
+    color: gray;
+    font-family: luminari;
+    font-size: 14px;
+}
