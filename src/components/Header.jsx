@@ -13,6 +13,7 @@ export const Header = () => {
                 {/* <img className="header-img" src={home_1} alt="home_1" /> */}
                 <div className='h-requiem'>
                     <h1>REQUIEM DEL ESPIRITÚ</h1>
+                    <p className='mt-4'>HOLOCENO</p>
                 </div>
             </div>
         </header>

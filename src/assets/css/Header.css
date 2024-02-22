@@ -5,13 +5,20 @@
 
 .h-requiem {
     background: black;
-    padding: 4em;
+    padding: 3em;
 }
 
 .h-requiem h1 {
     font-family: luminari;
     color: #83072D;
     font-size: 6em;
+    text-shadow: 4px 3px 5px rgb(196, 169, 20);
+}
+
+.h-requiem p {
+    font-family: luminari;
+    color: rgb(196, 169, 20);
+    font-size: 4em;
     text-shadow: 4px 3px 5px rgb(196, 169, 20);
 }
 
@@ -59,5 +66,9 @@
     .h-requiem h1 {
         font-size: 2em;
         text-shadow: 2px 1px 5px rgb(196, 169, 20);
+    }
+
+    .h-requiem p {
+        font-size: 1.4em;
     }
 }
