@@ -71,4 +71,8 @@
     .h-requiem p {
         font-size: 1.4em;
     }
+
+    .header-text {
+        font-size: 15px;
+    }
 }
