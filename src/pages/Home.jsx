@@ -1,7 +1,7 @@
 import { Header } from "../components/Header";
 import { BlogCard } from "../components/BlogCard";
 import '../assets/css/Home.css'
-import home_1 from '../assets/img/home_1.JPG'
+// import home_1 from '../assets/img/home_1.JPG'
 
 export function Home() {
     const blogs = [
@@ -34,9 +34,9 @@ export function Home() {
     return (
         <div className="home">
             <Header />
-            <div className="home-text-img">
+            {/* <div className="home-text-img">
                 <img className="home-img" src={home_1} alt="home_1" />
-            </div>
+            </div> */}
             <div className="home-blogs p-4">
                 {
                     blogs.map( (blog, idx) => {

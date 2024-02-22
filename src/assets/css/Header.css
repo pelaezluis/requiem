@@ -8,6 +8,40 @@
     padding: 2em;
 } */
 
+.header-img {
+    width: 100%;
+}
+
 .header-text {
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(196, 169, 20);
+    text-decoration: none;
+    font-family: luminari;
+    font-size: 15px;
+    width: 50%;
+}
+
+.h-nav {
+    background: black;
+}
+
+.h-button {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media (min-width: 600px) {
+    .header-img {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .h-button {
+        width: 70%;
+        font-size: 20px;
+    }
 }
