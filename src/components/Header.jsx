@@ -29,8 +29,8 @@ export const Header = () => {
             </Navbar> */}
             <div className='h-nav'>
                 <div className='h-button p-2'>
-                    <Link href="#action1" className='header-text'>Inicio</Link>
-                    <Link href="#action2" className='header-text'>Iniciar sesión</Link>
+                    <Link href="#action1" className='header-text' onClick={() => alert('Hola Reyna :)')}>Inicio</Link>
+                    <Link href="#action2" className='header-text' onClick={() => alert('¿Así?')}>Kalopsia</Link>
                 </div>
                 <img className="header-img" src={home_1} alt="home_1" />
             </div>
