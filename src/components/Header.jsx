@@ -1,4 +1,4 @@
-import home_1 from '../assets/img/home_1.JPG'
+// import home_1 from '../assets/img/home_1.JPG'
 import '../assets/css/Header.css'
 import { Link } from 'react-router-dom';
 
