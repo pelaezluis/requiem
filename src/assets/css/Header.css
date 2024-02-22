@@ -10,16 +10,17 @@
 
 .h-requiem h1 {
     font-family: luminari;
-    color: #83072D;
+    /* color: #83072D; */
+    color: whitesmoke;
     font-size: 6em;
-    text-shadow: 4px 3px 5px rgb(196, 169, 20);
+    text-shadow: 8px 5px 5px silver;
 }
 
 .h-requiem p {
     font-family: luminari;
-    color: rgb(196, 169, 20);
+    color: whitesmoke;
     font-size: 4em;
-    text-shadow: 5px 4px 5px rgb(196, 169, 20);
+    text-shadow: 6px 5px 5px silver;
 }
 
 .header-img {
@@ -65,12 +66,12 @@
 
     .h-requiem h1 {
         font-size: 2em;
-        text-shadow: 2px 1px 5px rgb(196, 169, 20);
+        text-shadow: 3px 2px 5px silver;
     }
 
     .h-requiem p {
         font-size: 1.4em;
-        text-shadow: 2px 1px 2px rgb(196, 169, 20);
+        text-shadow: 2px 2px 2px silver;
     }
 
     .header-text {

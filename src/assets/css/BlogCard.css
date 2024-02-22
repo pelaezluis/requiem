@@ -21,6 +21,7 @@
 }
 
 .bc-is-new {
+    /* color: #83072D; */
     color: #83072D;
     font-family:'Times New Roman', Times, serif;
     font-weight: 700;
@@ -44,8 +45,9 @@
 }
 
 .bc-read {
-    background: #83072D !important;
-    box-shadow: 1px 1px 6px 3px #83072D;
+    /* background: #83072D !important; */
+    background: gray !important;
+    box-shadow: 1px 1px 6px 3px gray;
     color:  black !important;
     font-family: luminari !important;
 }
