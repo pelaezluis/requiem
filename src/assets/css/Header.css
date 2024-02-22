@@ -3,6 +3,18 @@
     border-radius: 10px;
 }
 
+.h-requiem {
+    background: black;
+    padding: 4em;
+}
+
+.h-requiem h1 {
+    font-family: luminari;
+    color: #83072D;
+    font-size: 6em;
+    text-shadow: 4px 3px 5px rgb(196, 169, 20);
+}
+
 .header-img {
     width: 100%;
 }
@@ -42,5 +54,10 @@
     .h-button {
         width: 70%;
         font-size: 20px;
+    }
+
+    .h-requiem h1 {
+        font-size: 2em;
+        text-shadow: 2px 1px 5px rgb(196, 169, 20);
     }
 }

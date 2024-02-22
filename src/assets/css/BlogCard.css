@@ -21,17 +21,18 @@
 }
 
 .bc-is-new {
-    color: rgb(196, 169, 20);
-    font-family: 'luminari' !important;
+    color: #83072D;
+    font-family:'Times New Roman', Times, serif;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
-    background: #83072D;
-    box-shadow: 1px 1px 6px 3px #83072D;
+    background: rgb(196, 169, 20);
+    box-shadow: 1px 1px 6px 3px rgb(196, 169, 20);
     border-radius: 10px;
-    opacity: 80%;
+    opacity: 90%;
+    rotate: 315deg;
 }
 
 
@@ -72,6 +73,6 @@
 
     
 .bc-is-new {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 }
