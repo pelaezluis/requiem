@@ -17,7 +17,23 @@
 .bc-img {
     width: 100%;
     margin: auto;
+    position: relative;
 }
+
+.bc-is-new {
+    color: rgb(196, 169, 20);
+    font-family: 'luminari' !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    background: #83072D;
+    box-shadow: 1px 1px 6px 3px #83072D;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
 
 .bc-img img {
     width: 100%;
@@ -33,13 +49,11 @@
 }
 
 .bc-text h4 {
-    /* font-family: 'Grenze Gotisch', cursive; */
-    /* font-family: "fantasy one"; */
     font-family: luminari;
 }
 
 .bc-text p {
-    font-family: luminari !important;
+    font-family: luminari;
 }
 
 @media (max-width: 600px) {
@@ -54,6 +68,10 @@
     .bc-img img {
         width: 100%;
         height: 250px;
-        overflow: hidden;
     }
+
+    
+.bc-is-new {
+    font-size: 1em;
+}
 }

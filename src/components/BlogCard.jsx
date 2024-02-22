@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../assets/css/BlogCard.css'
-export const BlogCard = ({title = 'Titulo del blog', src, description = 'Descripción breve del blog' }) => {
+export const BlogCard = ({ src, title = 'Titulo del blog', description = 'Descripción breve del blog', isNew = false }) => {
     return (
         <div className="bc">
             <div className='bc-container'>
                 <div className="bc-img">
                     <img src={src} alt="" />
+                    {
+                        isNew && <p className='bc-is-new p-2'><strong>NUEVO</strong></p>
+                    }
                 </div>
                 <div className="bc-text p-2">
                     <h4>{title}</h4>
