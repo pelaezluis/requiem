@@ -23,8 +23,9 @@
 .bc-is-new {
     color: #83072D;
     font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
@@ -32,7 +33,7 @@
     box-shadow: 1px 1px 6px 3px rgb(196, 169, 20);
     border-radius: 10px;
     opacity: 90%;
-    rotate: 315deg;
+    /* rotate: 315deg; */
 }
 
 
