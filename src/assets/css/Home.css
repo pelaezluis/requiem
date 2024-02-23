@@ -15,14 +15,14 @@
 
 .home-no-blogs {
     background: #131a19;
-    height: 20em;
+    height: 30em;
 }
 
 .empty-blog {
     color: rgb(196, 169, 20);
     font-family: luminari;
     font-size: 25px;
-    margin-top: 4em;
+    margin-top: 5em;
 }
 
 @media (min-width: 600px) {
