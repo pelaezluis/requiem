@@ -10,7 +10,6 @@ export const Header = () => {
                     <Link href="#action1" className='header-text' onClick={() => alert('Hola Reyna :)')}>Inicio</Link>
                     <Link href="#action2" className='header-text kalopsia' onClick={() => alert('¿Así?')}>Kalopsia</Link>
                 </div>
-                {/* <img className="header-img" src={home_1} alt="home_1" /> */}
                 <div className='h-requiem'>
                     <h1>REQUIEM DEL ESPIRITÚ</h1>
                     <p className='mt-4'>HOLOCENO</p>
