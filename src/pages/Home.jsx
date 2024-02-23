@@ -6,7 +6,6 @@ import { Footer } from "../components/Footer";
 
 export function Home({ blogs }) {
 
-
     return (
         <div className="home">
             <Header />
