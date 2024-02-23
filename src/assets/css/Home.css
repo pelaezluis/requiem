@@ -11,6 +11,14 @@
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    border: solid red;    
+}
+
+.empty-blog {
+    color: rgb(196, 169, 20);
+    font-family: luminari;
+    font-size: 25px;
+    border: solid red;
 }
 
 @media (min-width: 600px) {
@@ -25,5 +33,10 @@
     .home-img {
         width: 80%;
         height: 500px;
+    }
+
+    .empty-blog {
+        font-size: 25px;
+        border: solid red;
     }
 }

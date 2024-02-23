@@ -11,14 +11,14 @@
 .h-requiem h1 {
     font-family: luminari;
     /* color: #83072D; */
-    color: whitesmoke;
+    color: rgb(201, 201, 201);
     font-size: 6em;
     text-shadow: 8px 5px 5px silver;
 }
 
 .h-requiem p {
     font-family: luminari;
-    color: whitesmoke;
+    color: rgb(201, 201, 201);
     font-size: 4em;
     text-shadow: 6px 5px 5px silver;
 }
