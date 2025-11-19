@@ -14,7 +14,7 @@ export default {
 @import 'materialize-css/dist/css/materialize.min.css';
 
 #app {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
@@ -29,5 +29,6 @@ body {
   margin: 0;
   padding: 0;
   background: #452635;
+  font-family: 'Times New Roman', serif;
 }
 </style>

@@ -137,7 +137,7 @@ export default {
   color: #d4af37;
   text-align: center;
   margin: 0 0 2rem 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Times New Roman', serif;
   letter-spacing: 1px;
 }
 
@@ -157,7 +157,7 @@ export default {
   color: #e0e0e0;
   font-size: 0.95rem;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .form-input {
@@ -167,7 +167,7 @@ export default {
   padding: 0.75rem 1rem;
   color: #e0e0e0;
   font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   transition: all 0.3s ease;
 }
 
@@ -194,7 +194,7 @@ export default {
   transition: all 0.3s ease;
   margin-top: 0.5rem;
   box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4), 0 2px 8px rgba(0, 0, 0, 0.3);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .submit-button:hover {
@@ -219,7 +219,7 @@ export default {
   color: #e0e0e0;
   font-size: 0.95rem;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .toggle-link {

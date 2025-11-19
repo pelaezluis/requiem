@@ -137,6 +137,13 @@ export default {
   transform: scale(1.05);
 }
 
+.blog-card.is-hovered .new-badge {
+  top: calc(50% - 150px);
+  transform: translate(-50%, -100%);
+  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.6), 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 30px rgba(128, 128, 128, 0.8), 0 0 50px rgba(128, 128, 128, 0.5);
+  z-index: 5;
+}
+
 .card-info-overlay {
   position: absolute;
   top: 0;
@@ -164,27 +171,29 @@ export default {
 
 .new-badge {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #d4af37, #b8941f);
+  color: #1a1a1a;
+  padding: 0.85rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.5);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4), 0 2px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(128, 128, 128, 0.6), 0 0 40px rgba(128, 128, 128, 0.4);
   animation: pulse 2s infinite;
   z-index: 4;
   white-space: nowrap;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 @keyframes pulse {
   0%, 100% {
-    transform: scale(1);
+    opacity: 1;
   }
   50% {
-    transform: scale(1.05);
+    opacity: 0.9;
   }
 }
 
@@ -284,14 +293,14 @@ export default {
 /* Responsive */
 @media (max-width: 768px) {
   .blog-card {
-    max-width: 95%;
-    margin: 1rem auto;
+    max-width: 85%;
+    margin: 2rem auto;
     height: auto;
-    min-height: 650px;
+    min-height: 550px;
   }
 
   .card-view {
-    min-height: 650px;
+    min-height: 550px;
   }
 
   .card-image-container {
@@ -329,24 +338,31 @@ export default {
   }
 
   .new-badge {
-    font-size: 0.7rem;
-    padding: 0.35rem 0.7rem;
-    top: 8px;
-    right: 8px;
+    font-size: 1rem;
+    padding: 0.75rem 1.8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .blog-card.is-hovered .new-badge {
+    top: calc(50% - 120px);
+    transform: translate(-50%, -100%);
+    z-index: 5;
   }
 }
 
 @media (max-width: 480px) {
   .blog-card {
-    max-width: 100%;
-    margin: 0.8rem auto;
+    max-width: 85%;
+    margin: 2.5rem auto;
     height: auto;
-    min-height: 600px;
+    min-height: 500px;
     padding: 0 0.5rem;
   }
 
   .card-view {
-    min-height: 600px;
+    min-height: 500px;
     border-radius: 12px;
   }
 
@@ -390,10 +406,17 @@ export default {
   }
 
   .new-badge {
-    font-size: 0.65rem;
-    padding: 0.3rem 0.6rem;
-    top: 6px;
-    right: 6px;
+    font-size: 0.95rem;
+    padding: 0.7rem 1.6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .blog-card.is-hovered .new-badge {
+    top: calc(50% - 120px);
+    transform: translate(-50%, -100%);
+    z-index: 5;
   }
 
   .blog-card.is-hovered {

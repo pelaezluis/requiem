@@ -69,7 +69,7 @@ export default {
   font-weight: 400;
   margin: 0;
   color: #d4af37 !important;
-  font-family: 'Georgia', serif;
+  font-family: 'Times New Roman', serif;
   letter-spacing: 1px;
   transition: color 0.3s ease;
   cursor: pointer;
@@ -114,7 +114,7 @@ export default {
   transition: color 0.3s ease, background 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   background: rgba(39, 10, 22, 0.95) !important;
   position: relative;
   border: none !important;

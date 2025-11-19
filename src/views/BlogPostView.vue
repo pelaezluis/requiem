@@ -101,7 +101,7 @@ export default {
   border-radius: 8px;
   cursor: pointer;
   font-size: 0.95rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   transition: all 0.3s ease;
 }
 
@@ -126,7 +126,7 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   box-shadow: 0 2px 8px rgba(212, 175, 55, 0.4);
   animation: pulse 2s ease-in-out infinite;
 }
@@ -143,7 +143,7 @@ export default {
 .post-date {
   color: rgba(224, 224, 224, 0.7);
   font-size: 0.9rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .post-image-container {
@@ -178,7 +178,7 @@ export default {
   font-weight: 400;
   color: #d4af37;
   margin: 0 0 1rem 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Times New Roman', serif;
   letter-spacing: 1px;
   line-height: 1.3;
 }
@@ -187,7 +187,7 @@ export default {
   font-size: 1.1rem;
   color: rgba(224, 224, 224, 0.8);
   margin: 0 0 2.5rem 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: italic;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(212, 175, 55, 0.2);
@@ -197,7 +197,7 @@ export default {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #e0e0e0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .post-body :deep(p) {
@@ -217,7 +217,7 @@ export default {
   color: #d4af37;
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-family: 'Georgia', serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .back-link {

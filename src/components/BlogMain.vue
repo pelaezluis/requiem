@@ -84,11 +84,11 @@ export default {
   }
 
   .blog-posts {
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
   .blog-posts .row {
-    gap: 1.5rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
   }
 
@@ -105,11 +105,11 @@ export default {
   }
 
   .blog-posts {
-    gap: 1rem;
+    gap: 3rem;
   }
 
   .blog-posts .row {
-    gap: 1rem;
+    gap: 3rem;
     margin: 0;
   }
 
