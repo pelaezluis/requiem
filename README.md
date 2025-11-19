@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Cry Love Cry - Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un blog elegante con diseño de espejo antiguo construido con Vue.js 3 y Materialize CSS.
 
-## Available Scripts
+## 🏗️ Estructura del Proyecto
 
-In the project directory, you can run:
+```
+src/
+├── components/          # Componentes reutilizables
+│   ├── BlogHeader.vue  # Header del blog con título y navegación
+│   ├── BlogMain.vue    # Contenedor principal de posts
+│   ├── BlogCard.vue    # Tarjeta individual de blog post
+│   ├── EmptyState.vue  # Estado vacío cuando no hay posts
+│   ├── MyComponent.vue # Componente principal (legacy)
+│   └── index.js        # Exportaciones de componentes
+├── views/               # Vistas de la aplicación
+│   └── BlogView.vue    # Vista principal del blog
+├── config/              # Configuraciones
+│   └── constants.js    # Constantes de la aplicación
+├── assets/              # Recursos estáticos
+│   ├── styles/         # Estilos globales
+│   │   └── global.css  # CSS global y utilidades
+│   └── frame_post.png  # Imagen del marco antiguo
+├── store.js             # Store de Vuex
+├── main.js              # Punto de entrada
+└── App.vue              # Componente raíz
+```
 
-### `npm start`
+## 🚀 Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Componentes Separados**: Arquitectura modular y mantenible
+- **Diseño Responsivo**: Adaptable a diferentes tamaños de pantalla
+- **Marco Antiguo**: Efecto visual único con imagen personalizada
+- **Materialize CSS**: Framework de UI moderno y elegante
+- **Vuex**: Gestión de estado centralizada
+- **Animaciones**: Transiciones suaves y efectos hover
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Componentes Principales
 
-### `npm test`
+### BlogHeader
+- Título del blog (configurable desde el store)
+- Botones de navegación (Inicio, Login)
+- Diseño con gradientes y sombras
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### BlogCard
+- Tarjeta individual de blog post
+- Marco de espejo antiguo personalizable
+- Imagen, título, descripción, autor y fecha
+- Botón de acción "LEER BLOG"
 
-### `npm run build`
+### BlogMain
+- Orquestador de posts
+- Manejo del estado vacío
+- Grid responsivo de tarjetas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### EmptyState
+- Mensaje cuando no hay posts disponibles
+- Mantiene el diseño del marco
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Configuración
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Constantes
+- Colores del tema
+- Tamaños de frames
+- Configuración de API
+- Configuración de UI
 
-### `npm run eject`
+### Store (Vuex)
+- Estado del blog
+- Posts de ejemplo
+- Getters para verificar existencia de posts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Desktop**: Grid de 3 columnas
+- **Tablet**: Grid de 2 columnas
+- **Mobile**: Grid de 1 columna
+- **Frames**: Tamaño adaptativo (30vw con límites)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎭 Efectos Visuales
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Marco Antiguo**: Imagen personalizada con sombras
+- **Hover Effects**: Escalado y sombras dinámicas
+- **Animaciones**: Fade-in y slide-up
+- **Gradientes**: Fondos y botones con gradientes
+- **Sombras**: Efectos de profundidad
 
-## Learn More
+## 🚀 Instalación y Uso
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Instalar dependencias
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Servidor de desarrollo
+npm run serve
 
-### Code Splitting
+# Construir para producción
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔮 Futuras Mejoras
 
-### Analyzing the Bundle Size
+- [ ] Implementación de rutas con Vue Router
+- [ ] Sistema de autenticación
+- [ ] API real para posts
+- [ ] Sistema de comentarios
+- [ ] Búsqueda y filtros
+- [ ] Modo oscuro/claro
+- [ ] PWA capabilities
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Personalización
 
-### Making a Progressive Web App
+Los colores y estilos se pueden modificar fácilmente en:
+- `src/config/constants.js` - Colores del tema
+- `src/assets/styles/global.css` - Estilos globales
+- Componentes individuales - Estilos específicos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Licencia
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto es de uso personal y educativo.
